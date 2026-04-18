@@ -2,7 +2,7 @@
 
 ## Assignment - main Number Guessing game
 
-Preview Link - https://aprabharam.github.io/Practicum_assignment_JS_main_2/
+Preview Link - https://aprabharam.github.io/Practicum_assignment_JS_main_1/
 
 ## About the Assignment
 This assignment is question 4 of the given assignments. Instructions to play the game:
