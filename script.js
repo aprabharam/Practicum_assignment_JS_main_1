@@ -67,16 +67,18 @@ function game() {
             console.log(`Oh no! You have guessed too high. You have ${maxAttempts - numberOfAttempts} attempts left to guess again`);
         } else {
             let playerScore = (maxAttempts - numberOfAttempts + 1) * 10;
-            alert(`Awesome! That's a correct guess. You guessed it in ${numberOfAttempts} attempts!
+            alert(`Awesome! You won! The evil AI has been defeated. Humans rule the world!!!!
+                It was a correct guess. You guessed it in ${numberOfAttempts} attempts!
                 Your score: ${playerScore}`);
-            console.log(`Awesome! That's a correct guess. You guessed it in ${numberOfAttempts} attempts!
+            console.log(`Awesome! You won! The evil AI has been defeated. Humans rule the world!!!!
+                It was a correct guess. You guessed it in ${numberOfAttempts} attempts!
                 Your score: ${playerScore}`);
             return;
         }
     }
-    alert(`Oh no. You are out of attempts. Maximum attempt reached.
+    alert(`Oh no. You are out of attempts. The evil AI won. No, that's bad. AI is going to take over the human world.
         The correct number was ${randomNumberGenerated}`);
-    console.log(`Oh no. You are out of attempts. Maximum attempt reached.
+    console.log(`Oh no. You are out of attempts. The evil AI won. No, that's bad. AI is going to take over the human world.
         The correct number was ${randomNumberGenerated}`);
 }
 
